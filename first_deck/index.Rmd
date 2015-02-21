@@ -1,14 +1,17 @@
 ---
-title       : World journals
-subtitle    : Scopus data base structure
-author      : Coursera2015
-job         : 
-framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
-widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
-knit        : slidify::knit2slides
+title: "World journals"
+author: "Coursera2015"
+highlighter: highlight.js
+output:
+  html_document:
+    keep_md: yes
+job: null
+knit: slidify::knit2slides
+mode: selfcontained
+hitheme: tomorrow
+subtitle: Scopus data base structure
+framework: io2012
+widgets: []
 ---
 
 ## Scopus journals structure
